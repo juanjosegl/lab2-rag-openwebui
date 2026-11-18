@@ -1,0 +1,36 @@
+services:
+  ollama:
+    image: ollama/ollama:latest
+    container_name: ollama-rag-lab
+    ports:
+      - "11434:11434"
+    volumes:
+      - ollama_data:/root/.ollama
+    environment:
+      # La guía usa 2. Con una VM de Docker de 3 GB, SLM + embeddings cargados a la
+      # vez provocan OOM (llama-server killed); con 1 Ollama los alterna.
+      - OLLAMA_MAX_LOADED_MODELS=1
+    restart: unless-stopped
+
+  open-webui:
+    image: ghcr.io/open-webui/open-webui:main
+    container_name: open-webui-lab
+    ports:
+      - "3000:8080"
+    environment:
+      - OLLAMA_BASE_URL=http://ollama-rag-lab:11434
+      - WEBUI_AUTH=true
+      # Embeddings vía Ollama desde el arranque (Fase 2.3): evita cargar
+      # sentence-transformers en RAM dentro del contenedor de Open WebUI.
+      - RAG_EMBEDDING_ENGINE=ollama
+      - RAG_EMBEDDING_MODEL=nomic-embed-text
+      - RAG_OLLAMA_BASE_URL=http://ollama-rag-lab:11434
+    volumes:
+      - open-webui_data:/app/backend/data
+    depends_on:
+      - ollama
+    restart: unless-stopped
+
+volumes:
+  ollama_data:
+  open-webui_data:

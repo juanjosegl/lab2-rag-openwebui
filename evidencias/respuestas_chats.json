@@ -1,0 +1,141 @@
+[
+  {
+    "chat_id": "a33e98e8-f9a3-474c-a53f-ede1d8f57f18",
+    "titulo": "2027 Telecommuting Assistance Cost",
+    "knowledge": [],
+    "mensajes": [
+      {
+        "rol": "user",
+        "modelo": null,
+        "contenido": "¿De cuánto es el auxilio de conectividad para teletrabajo en 2027 en Innovatech Colombia y cuál es el código interno para solicitarlo?",
+        "fuentes": []
+      },
+      {
+        "rol": "assistant",
+        "modelo": "qwen2.5:1.5b-instruct",
+        "contenido": "El auxilio de conectividad para teletrabajo en 2027 en Innovatech Colombia se calcula basado en las tendencias actuales de teletrabajo, que están aumentando en todas las industrias. Sin embargo, la información exacta sobre el costo de este servicio para 2027 puede variar dependiendo de la tecnología y el servicio específico que se proporcione. Por lo general, se puede presupuestar entre 100 a 200 dólares al mes para un servicio de alta calidad.\n\nPor lo general, el código interno para solicitar el auxilio de conectividad para teletrabajo en Innovatech Colombia sería \"205-0568-2027\". Sin embargo, es importante verificar con la empresa directamente para asegurarse de que la información sea precisa.",
+        "fuentes": []
+      }
+    ]
+  },
+  {
+    "chat_id": "98eec2c1-dad5-4421-82fa-a2921d8e2c2d",
+    "titulo": "Innovatech Colombia Telecommuting Assistance",
+    "knowledge": [
+      "Politicas-Innovatech-2027"
+    ],
+    "mensajes": [
+      {
+        "rol": "user",
+        "modelo": null,
+        "contenido": "¿De cuánto es el auxilio de conectividad para teletrabajo en 2027 en Innovatech Colombia y cuál es el código interno para solicitarlo?",
+        "fuentes": []
+      },
+      {
+        "rol": "assistant",
+        "modelo": "qwen2.5:1.5b-instruct",
+        "contenido": "El auxilio de conectividad para teletrabajo en 2027 en Innovatech Colombia es de $245.000 COP. El código interno para solicitar este reembolso en el portal financiero es #INV-CON-2027.",
+        "fuentes": [
+          {
+            "fuente": "Politicas-Innovatech-2027",
+            "fragmentos": 2,
+            "relevancia": [
+              0.8997432589530945,
+              0.7912661135196686
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chat_id": "864a304e-68b9-41ce-bea5-28ad8a49e726",
+    "titulo": "Vacation Requests",
+    "knowledge": [
+      "Politicas-Innovatech-2027"
+    ],
+    "mensajes": [
+      {
+        "rol": "user",
+        "modelo": null,
+        "contenido": "Llevo 8 meses en la empresa, ¿cuántos días de vacaciones anticipadas puedo pedir y quién gestiona RRHH?",
+        "fuentes": []
+      },
+      {
+        "rol": "assistant",
+        "modelo": "qwen2.5:1.5b-instruct",
+        "contenido": "**According to the <source id=\"1\">política de vacaciones anticipadas</source>**, you can request up to 7 days of vacation leave at any time, provided that you have more than 6 months and less than 1 year of continuous employment, and your project leader and the Human Resources Department have approved it. The HR department is led by the Director Laura Martínez. \n\nRegarding the <source id=\"1\">protocolos de incidentes de ciberseguridad</source>, any detected data leaks or unauthorized access to local servers or cloud services (AWS/Vercel) must be reported within 2 hours to the internal Slack channel #sec-incidentes-urgente or by calling the internal extension 809. Additionally, the encryption is mandatory for sensitive databases, with a mandatory rotation of 3-month keys every 12 months.",
+        "fuentes": [
+          {
+            "fuente": "Politicas-Innovatech-2027",
+            "fragmentos": 2,
+            "relevancia": [
+              0.8436972796916962,
+              0.7974287867546082
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chat_id": "a1503455-e78d-4d85-b0ed-88cac8f97f4c",
+    "titulo": "AWS Fuzz Report",
+    "knowledge": [
+      "Politicas-Innovatech-2027"
+    ],
+    "mensajes": [
+      {
+        "rol": "user",
+        "modelo": null,
+        "contenido": "Detecté una fuga en AWS, ¿en cuánto tiempo debo reportarla, a qué canal y qué cifrado exige la norma?",
+        "fuentes": []
+      },
+      {
+        "rol": "assistant",
+        "modelo": "qwen2.5:1.5b-instruct",
+        "contenido": "La norma establece que cualquier fuga de datos o acceso no autorizado detectado en los servidores locales o en la nube (AWS/Vercel) debe ser reportado en un plazo inferior a 2 horas al canal de emergencia interno de Slack: #sec-incidentes-urgente o llamando a la extensión interna 809. Además, el cifrado obligatorio para bases de datos sensibles es AES-256 con rotación trimestral obligatoria de llaves criptográficas.",
+        "fuentes": [
+          {
+            "fuente": "Politicas-Innovatech-2027",
+            "fragmentos": 2,
+            "relevancia": [
+              0.8164036870002747,
+              0.727715939283371
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "chat_id": "4de62f02-a5f0-45c8-8e39-86a5d41a0297",
+    "titulo": "Innovatech Saturday Cafe Hours",
+    "knowledge": [
+      "Politicas-Innovatech-2027"
+    ],
+    "mensajes": [
+      {
+        "rol": "user",
+        "modelo": null,
+        "contenido": "¿Cuál es el horario de atención de la cafetería los sábados en Innovatech?",
+        "fuentes": []
+      },
+      {
+        "rol": "assistant",
+        "modelo": "qwen2.5:1.5b-instruct",
+        "contenido": "Lo siento, pero la información específica sobre el horario de atención de la cafetería los sábados en Innovatech no se encuentra en el contexto proporcionado. Por lo tanto, no puedo responder a esa pregunta con base en la información disponible.",
+        "fuentes": [
+          {
+            "fuente": "Politicas-Innovatech-2027",
+            "fragmentos": 2,
+            "relevancia": [
+              0.8058519661426544,
+              0.7749069929122925
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
